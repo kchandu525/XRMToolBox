@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<!-- Required core metadata -->
+		<id>XrmToolBoxTool1</id>
+		<version>1.0.0</version>
+		<title>Export and Import Solutions</title>
+		<authors>Chandan Kotha</authors>
+		<owners>Chandan Kotha</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Helps in D365/CRM Deployment much faster than Powerapps</description>
+		<releaseNotes>Initial release</releaseNotes>
+		<copyright>Copyright © 2025 Chandan Kotha</copyright>
+		<tags>XrmToolBox Dynamics365 CRM Dataverse</tags>
+
+		<!-- Fixing the validation errors -->
+		<projectUrl>https://www.nuget.org/packages/D365Solution</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/yourusername/XrmToolBoxTool1/main/icon.png</iconUrl>
+
+		<!-- XrmToolBox specific requirements -->
+		<dependencies>
+			<dependency id="XrmToolBox" version="[1.2023.1.38,)" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\Release\XrmToolBoxTool1.dll" target="lib\net462" />
+		<file src="plugin.json" target="content" />
+		<!-- Include other dependencies if needed -->
+		<!-- ... other files ... -->
+		<file src="LICENSE" target="" />
+		<file src="README.md" target="" />
+	</files>
+</package>
